@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    
+    max-width: 800px;
+    
+}
+#container {
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+    border: 10px ridge;
+    position: relative;   
+}
+#vars {
+    display: flex;
+    flex-wrap: wrap;
+}
+.varDisplay {
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 50x;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 5px;
+    
+    
+}
+
+#close {   
+
+    width: 20px;
+    height: 20px;  
+    border-left: 1px solid black; 
+    border-bottom: 1px solid black;      
+    color: rgb(3, 3, 3);
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 10;
+}
